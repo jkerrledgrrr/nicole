@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Guidance Forms</title>
+
+  <style>
+    :root {
+      --primary-blue: #1e3a8a;
+      --secondary-blue: #2563eb;
+      --primary-red: #b91c1c;
+      --light-bg: #f8fafc;
+      --button-bg: #1e40af;
+      --button-hover: #b91c1c;
+      --text-dark: #0f172a;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background-color: var(--light-bg);
+      color: var(--text-dark);
+    }
+
+    /* HEADER */
+    .header {
+      background: linear-gradient(135deg, var(--primary-blue), var(--primary-red));
+      padding: 40px 20px;
+      text-align: center;
+      color: white;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 3rem;
+      letter-spacing: 1px;
+    }
+
+    .header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      opacity: 0.95;
+    }
+
+    /* MAIN CONTENT */
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .button-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .btn {
+      display: block;
+      padding: 14px 16px;
+      text-align: center;
+      background-color: var(--button-bg);
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: all 0.25s ease;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .btn:hover {
+      background-color: var(--button-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+    }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      padding: 30px 15px;
+      font-size: 0.9rem;
+      color: #475569;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+  <header class="header">
+    <h1>GUIDANCE FORMS</h1>
+    <p>Guidance Services</p>
+  </header>
+
+  <!-- ================= LINKS (EASY TO FIND) ================= -->
+  <!--
+    👉 JUST REPLACE THE LINKS BELOW
+    👉 ALL BUTTONS OPEN IN A NEW TAB
+  -->
+
+  <main class="container">
+    <div class="button-grid">
+
+      <a class="btn" href="PUT_YOUR_LINK_HERE" target="_blank">Form 137 Request Form</a>
+      <a class="btn" href="PUT_YOUR_LINK_HERE" target="_blank">Referral Slip</a>
+      <a class="btn" href="PUT_YOUR_LINK_HERE" target="_blank">Home Visit Record Form</a>
+      <a class="btn" href="PUT_YOUR_LINK_HERE" target="_blank">Excuse Letter</a>
+
+      <a class="btn" href="PUT_YOUR_LINK_HERE" target="_blank">Incident Report Form</a>
+      <a class="btn" href="PUT_YOUR_LINK_HERE" target="_blank">Letter to Parent</a>
+      <a class="btn" href="PUT_YOUR_LINK_HERE" target="_blank">Good Moral Certification</a>
+      <a class="btn" href="PUT_YOUR_LINK_HERE" target="_blank">Counseling Interview</a>
+
+      <a class="btn" href="PUT_YOUR_LINK_HERE" target="_blank">Case Event</a>
+      <a class="btn" href="PUT_YOUR_LINK_HERE" target="_blank">Call Slip</a>
+      <a class="btn" href="PUT_YOUR_LINK_HERE" target="_blank">Anecdotal Record Form</a>
+      <a class="btn" href="PUT_YOUR_LINK_HERE" target="_blank">Admission Slip</a>
+
+    </div>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer>
+    © 2026 Guidance Office. All rights reserved.
+  </footer>
+
+</body>
+</html>
