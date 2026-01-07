@@ -7,9 +7,7 @@
 
   <style>
     :root {
-      --primary-blue: #1e3a8a;
-      --secondary-blue: #2563eb;
-      --primary-red: #b91c1c;
+      --primary-blue: #1e40af;
       --light-bg: #f8fafc;
       --button-bg: #1e40af;
       --button-hover: #b91c1c;
@@ -27,12 +25,18 @@
       color: var(--text-dark);
     }
 
-    /* HEADER */
+    /* ================= HEADER ================= */
     .header {
-      background: linear-gradient(135deg, var(--primary-blue), var(--primary-red));
-      padding: 40px 20px;
+      background-color: var(--primary-blue);
+      padding: 30px 20px 40px;
       text-align: center;
       color: white;
+    }
+
+    .logo {
+      width: 110px;
+      height: auto;
+      margin-bottom: 15px;
     }
 
     .header h1 {
@@ -47,7 +51,7 @@
       opacity: 0.95;
     }
 
-    /* MAIN CONTENT */
+    /* ================= MAIN CONTENT ================= */
     .container {
       max-width: 1000px;
       margin: 40px auto;
@@ -79,7 +83,7 @@
       box-shadow: 0 6px 14px rgba(0,0,0,0.15);
     }
 
-    /* FOOTER */
+    /* ================= FOOTER ================= */
     footer {
       text-align: center;
       padding: 30px 15px;
@@ -93,15 +97,13 @@
 
   <!-- ================= HEADER ================= -->
   <header class="header">
+    <img src="logo.png" alt="BAGTECH Logo" class="logo" />
     <h1>GUIDANCE FORMS</h1>
     <p>Guidance Services</p>
   </header>
 
-  <!-- ================= LINKS (EASY TO FIND) ================= -->
-  <!--
-    👉 JUST REPLACE THE LINKS BELOW
-    👉 ALL BUTTONS OPEN IN A NEW TAB
-  -->
+  <!-- ================= BUTTON LINKS ================= -->
+  <!-- Replace PUT_YOUR_LINK_HERE with your actual form links -->
 
   <main class="container">
     <div class="button-grid">
